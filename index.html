@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+    <style>
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 40px;
+      }
+      .project {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!------------------------------- ABOUT SECTION ------------------------>
+
+    <section id="about">
+      <div class="container about">
+        <img src="./images/headshot.png" alt="Profile Photo" />
+        <div class="bio">
+          <h1>Erik Molina</h1>
+          <p style="font-family: 'Courier New', Courier, monospace; color: brown">Software Engineer</p>
+          <p>
+            I am a software engineer with a passion for creating innovative solutions. I have experience in various programming languages and frameworks. To list a few: HTML, CSS, JavaScript, Java, C,
+            React, NodeJS, and I am always eager to learn new technologies.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!------------------------------- PROJECTS SECTION ------------------------>
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+          <div class="project-img-container">
+            <img src="./images/SpotifyDash.png" alt="Project Photo" />
+            <img src="./images/Playlist.png" alt="Project Photo" />
+          </div>
+          <h3>Project 1: Spotify Dash</h3>
+          <p>
+            The Spotify Dashboard is a web app built with HTML, CSS, and JavaScript that integrates with the Spotify Web API to display user data. It allows users to log in via Spotify authentication
+            and view their profile information, top artists, favorite tracks, and recently played songs. The app dynamically updates the UI based on API responses, providing an interactive way to
+            explore listening history.
+          </p>
+        </div>
+        <div class="project">
+          <div class="project-img-container">
+            <img src="./images/ word_game.png" alt="Project Photo" />
+            <img src="./images/word_game2.png" alt="Project Photo" />
+          </div>
+          <h3>Project 2: Terminal Typing Game</h3>
+          <p>
+            A falling word game for the terminal in C involves displaying words that "fall" down the screen, requiring the player to type them before they reach the bottom. The game uses
+            multithreading (pthread) or non-blocking input (ncurses) to handle real-time word movement while capturing user input. The project also involved using dynamic memory allocation to handle
+            word storage and basic game mechanics like scoring and detecting game-over conditions.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!------------------------------- CONTACT SECTION ------------------------>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>You can reach me at efmolina@iastate.edu</p>
+      </div>
+    </section>
+
+    <footer class="footer">&copy; 2025 Erik Molina</footer>
+  </body>
+</html>
